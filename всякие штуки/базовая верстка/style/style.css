@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'Bradobrei';
+    src: url(../fonts/Bradobrei.eot);
+    src: url(./Bradobrei.eot?#iefix) format('embedded-opentype'),
+        url(./Bradobrei.otf) format('otf'),
+        url(../fonts/Bradobrei.otf) format('svg'),
+        url(../fonts/Bradobrei.ttf) format('truetype'),
+        url(../fonts/Bradobrei.woff) format('woff'),
+        url(../fonts/Bradobrei.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'LEngineer-Regular';
+    src: url(../fonts/LEngineer-Regular.eot);
+    src: url(./LEngineer-Regular.eot?#iefix) format('embedded-opentype'),
+        url(../fonts/LEngineer-Regular.otf) format('otf'),
+        url(../fonts/LEngineer-Regular.svg) format('svg'),
+        url(../fonts/LEngineer-Regular.ttf) format('truetype'),
+        url(../fonts/LEngineer-Regular.woff) format('woff'),
+        url(../fonts/LEngineer-Regular.woff2) format('woff2');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    font-family: 'Bradobrei';
+    line-height: 1;
+    font-size: 14px;
+}
+
+body {
+    background-color: lightgray;
+}
+
+footer,
+header {
+    display: block;
+}
+
+header {
+    background-color: gray;
+    height: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    line-height: 100px;
+    color: black;
+    font-size: 25px;
+}
+
+.h {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    margin: 35px 0 35px 17%;
+    font-size: 45px;
+}
+
+.main {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.img {
+    height: 600px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+}
+
+.container {
+    width: 480px;
+    height: 635px;
+    padding: 25px;
+    margin-bottom: 50px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    background-color: lightblue;
+    font-size: 27px;
+    font-family: 'LEngineer-Regular';
+
+}
+
+.container>p {
+    padding-bottom: 15px;
+}
+
+ul {
+    padding-left: 35px;
+    padding-bottom: 15px;
+}
+
+.git {
+    background: right 20px no-repeat url(../img/arrow-down.png);
+    padding-right: 20px;
+}
+
+.left {
+    text-align: end;
+    padding-top: 5px;
+}
+
+.post_scriptum {
+    margin-top: 30px;
+}
+
+a.list {
+    background: right 5px no-repeat url(../img/link.png);
+    padding-right: 20px;
+
+}
+
+.up {
+    position: fixed;
+    height: 40px;
+    width: 70px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid gray;
+    background-color: lightblue;
+    right: 20px;
+    bottom: 20px;
+}
+
+.empty {
+    height: 400px;
+}
+
+footer {
+    background-color: gray;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    line-height: 150px;
+    color: black;
+    font-size: 25px;
+}

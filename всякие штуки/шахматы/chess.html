@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+        table {
+            border-collapse: collapse;
+            outline: 1px solid black;
+        }
+
+        td {
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            font-size: 60px;
+        }
+
+        th {
+            background: lightgray;
+            color: blue;
+            font-size: 20px;
+        }
+
+        tr:nth-child(even) td:nth-child(odd),
+        tr:nth-child(odd) td:nth-child(even) {
+            background: gray;
+        }
+
+        tr:first-child th,
+        tr:last-child th {
+            height: 50px;
+        }
+
+        th:first-child,
+        th:last-child {
+            width: 50px;
+        }
+
+        .first {
+            border-right: 3px solid blue;
+        }
+
+        .end {
+            border-left: 3px solid blue;
+        }
+
+        .top {
+            border-top: 3px solid blue;
+        }
+
+        .bottom {
+            border-bottom: 3px solid blue;
+        }
+    </style>
+    <title>Шахматы</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th></th>
+            <th class="bottom">A</th>
+            <th class="bottom">B</th>
+            <th class="bottom">C</th>
+            <th class="bottom">D</th>
+            <th class="bottom">E</th>
+            <th class="bottom">F</th>
+            <th class="bottom">G</th>
+            <th class="bottom">H</th>
+            <th></th>
+        </tr>
+        <tr>
+            <th class="first">8</th>
+            <td>&#9820;</td>
+            <td>&#9822;</td>
+            <td>&#9821;</td>
+            <td>&#9819;</td>
+            <td>&#9818;</td>
+            <td>&#9821;</td>
+            <td>&#9822;</td>
+            <td>&#9820;</td>
+            <th class="end">8</th>
+        </tr>
+        <tr>
+            <th class="first">7</th>
+            <td>&#9823;</td>
+            <td>&#9823;</td>
+            <td>&#9823;</td>
+            <td>&#9823;</td>
+            <td>&#9823;</td>
+            <td>&#9823;</td>
+            <td>&#9823;</td>
+            <td>&#9823;</td>
+            <th class="end">7</th>
+        </tr>
+        <tr>
+            <th class="first">6</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <th class="end">6</th>
+        </tr>
+        <tr>
+            <th class="first">5</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <th class="end">5</th>
+        </tr>
+        <tr>
+            <th class="first">4</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <th class="end">4</th>
+        </tr>
+        <tr>
+            <th class="first">3</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <th class="end">3</th>
+        </tr>
+        <tr>
+            <th class="first">2</th>
+            <td>&#9817;</td>
+            <td>&#9817;</td>
+            <td>&#9817;</td>
+            <td>&#9817;</td>
+            <td>&#9817;</td>
+            <td>&#9817;</td>
+            <td>&#9817;</td>
+            <td>&#9817;</td>
+            <th class="end">2</th>
+        </tr>
+        <tr>
+            <th class="first">1</th>
+            <td>&#9814;</td>
+            <td>&#9816;</td>
+            <td>&#9815;</td>
+            <td>&#9813;</td>
+            <td>&#9812;</td>
+            <td>&#9815;</td>
+            <td>&#9816;</td>
+            <td>&#9814;</td>
+            <th class="end">1</th>
+        </tr>
+        <tr>
+            <th></th>
+            <th class="top">A</th>
+            <th class="top">B</th>
+            <th class="top">C</th>
+            <th class="top">D</th>
+            <th class="top">E</th>
+            <th class="top">F</th>
+            <th class="top">G</th>
+            <th class="top">H</th>
+            <th></th>
+        </tr>
+    </table>
+</body>
+
+</html>

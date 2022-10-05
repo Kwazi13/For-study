@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Alexander';
+    src: url(../fonts/Alexander.eot);
+    src: url(./Alexander.eot?#iefix) format('embedded-opentype'),
+        url(../fonts/Alexander.otf) format('otf'),
+        url(../fonts/Alexander.ttf) format('truetype'),
+        url(../fonts/Alexander.woff) format('woff'),
+        url(../fonts/Alexander.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Boomboom';
+    src: url(../fonts/Boomboom.eot);
+    src: url(./Boomboom.eot?#iefix) format('embedded-opentype'),
+        url(../fonts/Boomboom.otf) format('otf'),
+        url(../fonts/Boomboom.ttf) format('truetype'),
+        url(../fonts/Boomboom.woff) format('woff'),
+        url(../fonts/Boomboom.woff2) format('woff2');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    background-color: lightcyan;
+}
+
+h1,
+h2,
+h3 {
+    margin: 20px 100px;
+    font-family: 'Boomboom';
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 200;
+}
+
+div {
+    margin-left: 100px;
+    margin-top: 40px;
+    font-family: 'Alexander';
+    font-size: 22px;
+}
+
+.first {
+    margin-top: 20px;
+}
+
+p {
+    padding-bottom: 5px;
+}
+
+.speech {
+    margin-top: 20px;
+}
+
+.strophe {
+    width: 450px;
+    padding: 15px;
+    border: 2px solid blue;
+    border-radius: 8px;
+    background: linear-gradient(to bottom right, lightblue, pink);
+}
+
+.even {
+    margin-left: 150px;
+}
+
+.indent {
+    margin-left: 15px;
+}
