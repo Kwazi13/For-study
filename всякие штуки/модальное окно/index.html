@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Popup</title>
+</head>
+
+<body>
+    <button class="trigger">Заказать обратный звонок</button>
+    <div class="container">
+        <div class="okno call_me">
+            <a class="close">x</a>
+            <h2>Заказать обратный звонок</h2>
+            <p>Не можете дозвонится? Кончаются деньги на мобильном телефоне?
+
+                Просто укажите свое имя и телефон и мы свяжемся с вами.</p>
+            <form action="">
+                <p>Имя:</p>
+                <input type="text" name="name">
+                <p>Телефон:</p>
+                <input type="text" name="name" placeholder="+7 (495) 123-45-67">
+                <input class="submit" type="submit" value="Позвонить мне">
+            </form>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+        $('.trigger').on('click', function () {
+            $('.container').addClass('active');
+            setTimeout(function () {
+                $('.container').find(".okno").css({
+                    transform: "rotateX(0)"
+                });
+            }, 200);
+
+        });
+        $('.close').on('click', function () {
+            $('.container').find(".okno").css({
+                transform: "rotateX(90deg)"
+            });
+            setTimeout(function () {
+                $('.container').removeClass('active');
+            }, 200);
+        });
+    </script>
+</body>
+
+</html>
