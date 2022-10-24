@@ -1,0 +1,133 @@
+body {
+    background-color: lightslategray;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 600px;
+    min-height: 200px;
+    border: 1px solid lightsalmon;
+    border-radius: 10px;
+    background-color: purple;
+    margin: 100px auto;
+
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 45px;
+    color: lightsalmon;
+}
+
+.first_step {
+    text-align: center;
+    color: lightsalmon;
+    font-size: 25px;
+    margin-top: -15px;
+}
+
+.first_step.close {
+    display: none;
+}
+
+.second {
+    text-align: center;
+    color: lightsalmon;
+    font-size: 25px;
+    margin-top: -15px;
+    display: none;
+}
+
+.second.show {
+    display: block;
+}
+
+.second p {
+    margin: 0;
+}
+
+.first_step button {
+    width: 180px;
+    height: 40px;
+    border: 1px solid lightsalmon;
+    border-radius: 10px;
+    color: lightsalmon;
+    background-color: purple;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.first_step button:hover {
+    border: 1px solid purple;
+    color: purple;
+    background-color: lightsalmon;
+}
+
+#output {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#output .user {
+    color: lightsalmon;
+    font-weight: bold;
+}
+
+#prompt {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 15px;
+    display: none;
+}
+
+#prompt.show {
+    display: flex;
+}
+
+#prompt input {
+    display: block;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: lightsalmon;
+    padding: 5px 0 5px 10px;
+    font-size: inherit;
+}
+
+#prompt::before {
+    content: '> ';
+    color: lightsalmon;
+}
+
+.refresh {
+    text-align: center;
+    color: lightsalmon;
+    font-size: 25px;
+    display: none;
+}
+
+.refresh.show {
+    display: flex;
+}
+
+.refresh button {
+    width: 200px;
+    height: 70px;
+    border: 1px solid lightsalmon;
+    border-radius: 10px;
+    color: lightsalmon;
+    background-color: purple;
+    cursor: pointer;
+    margin: 10px auto 15px;
+    font-size: 25px;
+}
+
+.refresh button:hover {
+    border: 1px solid purple;
+    color: purple;
+    background-color: lightsalmon;
+}
