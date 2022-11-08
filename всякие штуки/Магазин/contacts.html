@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/iconsfont.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/beans.ico">
+    <title>Контакты</title>
+    <script defer src="js/jquery-3.6.1.min.js"></script>
+    <script defer src="js/main.js"></script>
+</head>
+
+<body>
+    <div class="app_please"></div>
+    <header>
+        <div class="container">
+            <div class="top_block">
+                <div class="logo">
+                    <a href="index.html" class="logo"><img src="../Магазин/images/logo.jpg"></a>
+                </div>
+                <div class="left">
+                    <div class="location">
+                        <div id="city" title="Нажмите для выбора города">
+                            <i class="fa-solid fa-location-dot"></i>
+                            Ваш город: <span>Москва</span>
+                        </div>
+                    </div>
+                    <div class="modal_city_screener"></div>
+                    <div class="container_for_modal">
+                        <div class="okno_city">
+                            <a class="okno_city_close">х</a>
+                            <h2>Выбор города</h2>
+                            <div class="outline"></div>
+                            <div class="goroda">
+                                <div class="gf">
+                                    <p>Москва</p>
+                                    <p>Санкт-Петербург</p>
+                                    <p>Архангельск</p>
+                                    <p>Нижний Новгород</p>
+                                    <p>Владивосток</p>
+                                    <p>Омск</p>
+                                    <p>Пермь</p>
+                                    <p>Сургут</p>
+                                    <p>Новосибирск</p>
+                                    <p>Ростов-на-Дону</p>
+                                </div>
+                                <div class="gs">
+                                    <p>Тула</p>
+                                    <p>Ижевск</p>
+                                    <p>Воронеж</p>
+                                    <p>Саратов</p>
+                                    <p>Тольятти</p>
+                                    <p>Краснодар</p>
+                                    <p>Иркутск</p>
+                                    <p>Екатеринбург</p>
+                                    <p>Тюмень</p>
+                                    <p>Волгоград</p>
+                                </div>
+                                <div class="gt">
+                                    <p>Мурманск</p>
+                                    <p>Ульяновск</p>
+                                    <p>Красноярск</p>
+                                    <p>Уфа</p>
+                                    <p>Челябинск</p>
+                                    <p>Хабаровск</p>
+                                    <p>Казань</p>
+                                    <p>Самара</p>
+                                    <p>Тверь</p>
+                                    <p>Ярославль</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="reg">
+                    <div class="regestry_enter">
+                        <i class="fa-solid fa-circle-user"></i>
+                        Вход/Регистрация
+                    </div>
+                    <div class="login_s"></div>
+                    <div class="container_for_modal">
+                        <div class="login">
+                            <a class="close_re">x</a>
+                            <h2>Вход на сайт</h2>
+                            <form action="" class="log_form">
+                                <input type="text" name="E-mail" placeholder="E-mail">
+                                <input type="text" name="pass" placeholder="Пароль">
+                                <input class="submit_en" type="submit" value="Войти">
+                                <a href="#">Забыли пароль?</a>
+                                <div class="outline"></div>
+                                <div class="icons">
+                                    <i class="fa-brands fa-vk"></i>
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <i class="fa-brands fa-apple"></i>
+                                    <i class="fa-brands fa-facebook"></i>
+                                    <i class="fa-brands fa-yandex"></i>
+                                </div>
+                                <div class="outline"></div>
+                                <input class="submit_re" type="submit" value="Регистрация">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="outline"></div>
+            <div class="bb">
+                <div class="dropdown">
+                    <div class="dropdown_scr"></div>
+                    <button data-path="mm" class="dropdown_toggle fa-regular fa-bars">Товары</button>
+                    <div class="container_for_modal">
+                        <div data-target="mm" class="main_menu">
+                            <ul>
+                                <li><a href="product.html"><span>
+                                            <i class="fa-solid fa-mug-hot"></i>
+                                        </span>Кофе молотый</a></li>
+                                <li><a href="product.html"><span>
+                                            <i class="fa-solid fa-mug-hot"></i>
+                                        </span>Кофе в зернах</a></li>
+                                <li><a href="product.html"><span>
+                                            <i class="fa-solid fa-mug-hot"></i>
+                                        </span>Капсульный кофе</a></li>
+                                <li><a href="product.html"><span>
+                                            <i class="fa-solid fa-mug-hot"></i>
+                                        </span>Ароматизированный кофе</a></li>
+                                <li><a href="product.html"><span>
+                                            <i class="fa-solid fa-mug-hot"></i>
+                                        </span>Аксессуары</a></li>
+                                <li><a href="product.html"><span>
+                                            <i class="fa-solid fa-mug-hot"></i>
+                                        </span>Наборы</a></li>
+                                <li><a href="product.html"><span>
+                                            <i class="fa-solid fa-mug-hot"></i>
+                                        </span>Фирменные смеси</a></li>
+                                <li><a href="product.html"><span>
+                                            <i class="fa-solid fa-mug-hot"></i>
+                                        </span>Подарочные сертификаты</a></li>
+                                <li><a href="product.html"><span>
+                                            <i class="fa-solid fa-mug-hot"></i>
+                                        </span>Подписка на кофе</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav">
+                    <a href="index.html">Главная</a>
+                    <a href="katalog.html">Каталог</a>
+                    <a href="">Акции</a>
+                    <a href="">Оплата и доставка</a>
+                    <a href="contacts.html">Контакты</a>
+                </div>
+                <div class="right">
+                    <div class="search">
+                        <input class="srch" type="text" placeholder="Поиск по каталогу...">
+                    </div>
+                    <div class="basket">
+                        <a href="basket.html" class="cart">
+                            <i class="fa-solid fa-cart-shopping"></i>Корзина</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <ul class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <a href="index.html">
+                        <span itemprop="name">Главная страница</span>
+                    </a>
+                    <meta itemprop="position" content="1">
+                    <link itemprop="url" href="index.html">
+                </li>
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <span itemprop="name">Контакты</span>
+                    <meta itemprop="position" content="2">
+                    <link itemprop="url" href="contacts.html">
+                </li>
+            </ul>
+        </div>
+        <div class="container">
+            <h2 class="our_contacts_h2">Контакты</h2>
+            <div class="contacts_our_contacts">
+                <h3>Обработка и доставка заказов:</h3>
+                <p>Пн-Пт с 9:00 до 18:00</p>
+                <p>Сб-Вс: выходной</p>
+                <h3>Связаться с нами</h3>
+                <p>+7 (999) 999-99-99</p>
+                <p>CoffeeDrain@coffee.com</p>
+                <h3>Для оптовых заказов</h3>
+                <p>+7 (999) 999-99-99</p>
+                <p>CoffeeDrain@coffee.com</p>
+                <h3>Юредический адрес</h3>
+                <p>г. Москва</p>
+                <h3>Мы в социальных сетях</h3>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-telegram"></i>
+                <i class="fa-brands fa-vk"></i>
+                <div class="ask_call_back">
+                    <h3>Связаться со мной</h3>
+                    <div class="ask_call_back_item">
+                        <h4>Заказать обратный звонок<img src="./images/Arrow_down.svg" alt=""></h4>
+                        <form action="">
+                            <p>Имя:</p>
+                            <input type="text" name="name">
+                            <p>Телефон:</p>
+                            <input type="text" name="name" placeholder="+7 (999) 999-99-99">
+                            <input class="submit" type="submit" value="Позвонить мне">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <iframe
+                src="https://yandex.ru/map-widget/v1/?um=constructor%3A644593326581e233ab4186a0d721505aed5be39961d8ef45425de42a95bb1f42&amp;source=constructor"
+                width="100%" height="722" frameborder="0"></iframe>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer_menu">
+                <ul>
+                    <li>Каталог</li>
+                    <li><a href="">Кофе</a></li>
+                    <li><a href="">Добавки</a></li>
+                    <li><a href="">Аксессуары</a></li>
+                    <li><a href="">Прочее</a></li>
+                </ul>
+                <ul>
+                    <li>Компания</li>
+                    <li><a href="">О нас</a></li>
+                    <li><a href="">Наше производство</a></li>
+                    <li><a href="">Партнерская программа</a></li>
+                    <li><a href="">Прочее</a></li>
+                </ul>
+                <ul>
+                    <li>Информация</li>
+                    <li><a href="">Доставка и оплата</a></li>
+                    <li><a href="">Скидки и акции</a></li>
+                    <li><a href="">Отзывы</a></li>
+                    <li><a href="">Блог</a></li>
+                </ul>
+                <div class="footer_links">
+                    <ul>
+                        <li>Время работы поддержки:</li>
+                        <li>Пн-Пт: 9.00-18.00</li>
+                        <li>Сб-Вс: выходной</li>
+                        <li class="icons"><i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-telegram"></i>
+                            <i class="fa-brands fa-vk"></i>
+                        </li>
+                        <li>+7 (999) 999-99-99</li>
+                        <li>Бесплатный звонок по России</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="outline"></div>
+            <div class="footer_copywriting">
+                <p>&copy;2022 «Malakhov»</p>
+                <ul>
+                    <li><a href="">Политика конфиденциальности</a></li>
+                    <li><a href="">Публичная оферта</a></li>
+                    <li><a href="">Пользовательское соглашение</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
